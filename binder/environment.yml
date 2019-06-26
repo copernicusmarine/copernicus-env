@@ -23,6 +23,7 @@ dependencies:
   - pandas
   - numpy
   - numba
+  - imageio
   - basemap-data-hires
   - seaborn
   - pip:
