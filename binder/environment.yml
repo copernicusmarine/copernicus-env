@@ -1,0 +1,30 @@
+name: virtual-copernicus-env
+channels:
+  - conda-forge
+  - anaconda
+  - conda-forge/label/gcc7
+  - flynn
+  - bioconda
+dependencies:
+  - python
+  - ftputil
+  - thriftpy
+  - requests 
+  - ncftp
+  - nco=4.7.7
+  - netcdf-fortran=4.4.4
+  - netcdf4=1.4.2
+  - libnetcdf=4.6.1
+  - matplotlib
+  - cartopy
+  - basemap
+  - scipy
+  - xarray
+  - pandas
+  - numpy
+  - numba
+  - basemap-data-hires
+  - seaborn
+  - pip:
+    - motuclient>=1.8.1
+    - cdo>=1.4.0
