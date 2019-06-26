@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget -q -O training-blackSea.zip https://atlas.mercator-ocean.fr/s/tj68fER9qnZENfA/download
+unzip training-blackSea.zip
+rm -rf training-blackSea.zip
