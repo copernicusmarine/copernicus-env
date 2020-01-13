@@ -27,5 +27,5 @@ dependencies:
   - basemap-data-hires
   - seaborn
   - pip:
-    - motuclient>=1.8.1
+    - motuclient>=1.8.4
     - cdo>=1.4.0
