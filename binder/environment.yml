@@ -7,27 +7,23 @@ channels:
   - bioconda
 dependencies:
   - python
+  - basemap
+  - basemap-data-hires
+  - cartopy
   - dask-core
+  - folium
   - ftputil
-  - thriftpy
-  - requests 
-  - ncftp
-  - nco=4.7.7
-  - netcdf-fortran>=4.4.4
-  - netcdf4>=1.4.2
+  - gsw
   - libnetcdf>=4.6.1
   - matplotlib
-  - cartopy
-  - basemap
-  - scipy
-  - xarray
-  - pandas
+  - netcdf4>=1.4.2
+  - netcdf-fortran>=4.4.4
   - numpy
-  - numba
-  - imageio
-  - basemap-data-hires
+  - pandas
+  - pip 
+  - scipy
   - seaborn
-  - pip
+  - xarray
+  - windrose
   - pip:
     - motuclient>=1.8.4
-    - cdo>=1.4.0
