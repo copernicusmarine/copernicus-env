@@ -1,29 +1,28 @@
-name: virtual-copernicus-env
+name: copernicus-marine
 channels:
   - conda-forge
-  - anaconda
-  - conda-forge/label/gcc7
-  - flynn
-  - bioconda
 dependencies:
   - python
   - basemap
   - basemap-data-hires
   - cartopy
   - dask-core
-  - folium
+  - fiona
   - ftputil
-  - gsw
   - libnetcdf>=4.6.1
   - matplotlib
+  - moviepy
+  - natsort
   - netcdf4>=1.4.2
   - netcdf-fortran>=4.4.4
   - numpy
   - pandas
-  - pip 
+  - pip
+  - requests
   - scipy
   - seaborn
   - xarray
-  - windrose
   - pip:
+    - jupyter-server-proxy
+    - jupyter-offlinenotebook
     - motuclient>=1.8.4
