@@ -5,3 +5,5 @@ jupyter labextension install jupyter-offlinenotebook
 wget -q -O operational-oceanography-workshop-20200527.zip https://atlas.mercator-ocean.fr/s/9A2m74e8DpMiWEi/download
 unzip operational-oceanography-workshop-20200527.zip
 rm -rf operational-oceanography-workshop-20200527.zip
+
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace operational-oceanography-workshop-20200527/*.ipynb
