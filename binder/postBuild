@@ -1,5 +1,7 @@
 #!/bin/bash
 
-wget -q -O training-blackSea.zip https://atlas.mercator-ocean.fr/s/CydcLbF98d4T5PN/download
-unzip training-blackSea.zip
-rm -rf training-blackSea.zip
+jupyter labextension install jupyter-offlinenotebook
+
+wget -q -O operational-oceanography-workshop-20200527.zip https://atlas.mercator-ocean.fr/s/9A2m74e8DpMiWEi/download
+unzip operational-oceanography-workshop-20200527.zip
+rm -rf operational-oceanography-workshop-20200527.zip
