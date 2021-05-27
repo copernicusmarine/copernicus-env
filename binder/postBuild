@@ -2,8 +2,9 @@
 
 jupyter labextension install jupyter-offlinenotebook
 
-wget -q -O operational-oceanography-workshop-20200527.zip https://atlas.mercator-ocean.fr/s/9A2m74e8DpMiWEi/download
-unzip operational-oceanography-workshop-20200527.zip
-rm -rf operational-oceanography-workshop-20200527.zip
+wget -q -O operational-satellite-oceanography-training-20210528.zip https://atlas.mercator-ocean.fr/s/sC7DRSAWKHsTkFZ/download
+unzip operational-satellite-oceanography-training-20210528.zip
+tar -xvf DIVE-Part4/DIVE-Part4-assimilating_altimetry_in_a_3D_model.tar.gz
+rm -rf DIVE-Part4 && rm -rf operational-satellite-oceanography-training-20210528.gzip
 
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace operational-oceanography-workshop-20200527/*.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace DIVE-Part4-assimilating_altimetry_in_a_3D_model/*.ipynb
