@@ -8,8 +8,6 @@ dependencies:
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
-  - basemap
-  - basemap-data-hires
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.17.1=h7f98852_1
   - ca-certificates=2020.12.5=ha878542_0
@@ -20,7 +18,6 @@ dependencies:
   - cycler=0.10.0=py_2
   - dask-core
   - decorator=5.0.9=pyhd8ed1ab_0
-  - fiona
   - freetype=2.10.4=h0708190_1
   - geos=3.9.1=h9c3ff4c_2
   - hdf4=4.2.15=h10796ff_3
@@ -61,7 +58,6 @@ dependencies:
   - matplotlib
   - matplotlib-base=3.4.2=py37hdd32ed1_0
   - matplotlib-inline=0.1.2=pyhd8ed1ab_2
-  - moviepy
   - ncurses=6.2=h58526e2_4
   - netcdf4=1.5.6=nompi_py37h946d57d_103
   - netcdf-fortran>=4.4.4
